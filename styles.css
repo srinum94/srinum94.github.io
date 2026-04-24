@@ -1,0 +1,101 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: rgb(255, 255, 255);
+    
+
+}
+.center-img{
+    text-align: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+
+.top-image {
+  position: relative;   /* or absolute / fixed */
+  z-index: 10;
+}
+
+.background {
+    opacity: 0.2;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 95%;
+    height: 100%;
+
+}
+
+
+  img{
+    height: 10rem;
+}
+  h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    
+    color: black;
+    font-size:3rem;
+    font-family: 'Corinthia', cursive;
+    padding: 0;
+}
+h3{
+    margin: 0;
+}
+
+.first-test-padding{
+    top: 0rem;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.day,
+.hour,
+.minute,
+.second {
+    font-size: 2rem;
+    color: red;
+    
+}
+
+.welcome-week {
+    /* min-height: 100vh; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    animation: pulse 1s ease infinite;
+}
+
+.countdown {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.container-day,
+.container-hour,
+.container-minute,
+.container-second {
+    margin-left: 30px;
+    text-align: center;
+
+}
+
+.day2,
+.hour2,
+.minute2,
+.second2 {
+    font-size: 2rem;
+    color: red;
+    
+}
+.second-text {
+    margin: 0;
+    padding: 0;
+    font-size:2rem;
+}
